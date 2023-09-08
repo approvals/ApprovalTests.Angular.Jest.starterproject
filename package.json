@@ -48,6 +48,9 @@
         "tsConfig": "<rootDir>/tsconfig.spec.json",
         "stringifyContextPathRegex": "\\.html$"
       }
-    }
+    },
+    "transformIgnorePatterns": [
+      "node_modules/@3ds"
+    ]
   }
 }
