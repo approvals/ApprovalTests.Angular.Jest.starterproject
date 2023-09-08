@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApprovalsStuff should approve with approvals 1`] = `
+"[0] => Lada
+[1] => Pedro
+[2] => Llewellyn
+"
+`;

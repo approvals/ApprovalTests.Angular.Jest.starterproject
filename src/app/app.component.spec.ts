@@ -1,13 +1,13 @@
-import { describe, expect } from "@jest/globals";
-import {verify} from "approvals/lib/Providers/Jest/JestApprovals";
+import {describe, expect} from "@jest/globals";
+import {printArray} from "approvals/lib//Utilities/Printers";
 
 describe('ApprovalsStuff', () => {
-
   it('should approve', () => {
     expect("5").toBe("5");
   });
 
   it('should approve with approvals', () => {
-    verify('foo');
+    let actual = printArray("", ["Lada", "Pedro", "Llewellyn"]);
+    expect(actual).toMatchSnapshot();
   });
 });
